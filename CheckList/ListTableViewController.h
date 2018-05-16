@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListTableViewController.h
 //  CheckList
 //
 //  Created by Eiichi Hayashi on 2018/05/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ListTableViewController : UITableViewController
 
+@property (nonatomic) NSString *checkListID;
 
 @end
-

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="ItemList" representedClassName="ItemList" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="checkListID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="TitleList" representedClassName="TitleList" syncable="YES" codeGenerationType="class">
+        <attribute name="checkListID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TitleList" positionX="-216" positionY="-12" width="128" height="73"/>
+        <element name="ItemList" positionX="-189" positionY="27" width="128" height="120"/>
+    </elements>
 </model>
